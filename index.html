@@ -1,105 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"crossorigin="anonymous"></script>       
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-          <link rel="stylesheet" href="estilos.css">
-        <link rel="shortcut icon" type="image/x-icon" href="img/cniche.png">
-    <title>Caniche Electronics</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/cniche.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Caniche Electronics</title>
 </head>
+
 <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/cniche.png" width="60" height="60" class="d-inline-block align-top" alt="">
-              </a>
-              <a class="navbar-brand" href="#">Caniche Electronics</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a id="home" class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="auriculares.html">Auriculares</a>
-                  </li>
-        
-                  <li class="nav-item">
-                    <a class="nav-link" href="mouses.html">Mouses</a>
-                  </li>
-        
-                  <li class="nav-item">
-                    <a class="nav-link" href="teclados.html">Teclados</a>
-                  </li>
-        
-                </ul>
-              </div>
-            </div>
-        </nav>  
-
-        <script>
-          AOS.init();
-       </script>
+<nav class="navbar">
+  <a href="#" class="logo"><img src="img/cniche.png" style="width: 60px; height: 60px;">Caniche Electronics</a>
+  <input type="checkbox" id="toggler">
+  <label for="toggler" onclick="toggleMenu()"><i class="fas fa-bars"></i></label>
+  <div class="menu">
+    <ul class="list">
+      <li><a href="#" onclick="closeMenu()">Inicio</a></li>
+      <li><a href="sobrenosotros.html" onclick="closeMenu()">Sobre nosotros</a></li>
+      <li><a href="auriculares.html" onclick="closeMenu()">Auriculares</a></li>
+      <li><a href="mouses.html" onclick="closeMenu()">Mouses</a></li>
+      <li><a href="teclados.html" onclick="closeMenu()">Teclados</a></li>
+    </ul>
+  </div>
+</nav>
 
 
+<div class="container">
+<div id="titulo">
+      <h1>C</h1>
+      <h1>a</h1>
+      <h1>n</h1>
+      <h1>i</h1>
+      <h1>c</h1>
+      <h1>h</h1>
+      <h1 id="tituloE">e</h1>
+      <h1>E</h1>
+      <h1>l</h1>
+      <h1>e</h1>
+      <h1>c</h1>
+      <h1>t</h1>
+      <h1>r</h1>
+      <h1>o</h1>
+      <h1>n</h1>
+      <h1>i</h1>
+      <h1>c</h1>
+      <h1>s</h1>
+</div>
 
-        <section class="container">
-          <div class="row">
-            <div class="col-md-10">
-            <h1>Caniche Electronics</h1>
-            <p>Caniche Electronics es una tienda mayorista de periféricos informáticos de última generación. Ofrecemos una gama de productos de alta calidad, como mouses, teclados, auriculares y más. Ven y disfruta de productos de primera calidad y un servicio al cliente excepcional.</p>
-            </div>
-            </div>
-            <br>
-            
-            <a href="combos.html">
-            <div class="card" style="width: 14.5rem; height: 19rem;" data-aos="fade-up" style="border: 1px solid rgb(14, 64, 122);">
-              <img id="tarjetas" class="card-img-top" src="img/combo.png" data-aos="fade-up" onmouseover="this.style.opacity=0.5" onmouseout="this.style.opacity=1">
-                <h2>Teclado+Mouse</h2>
-            </div>
-          </a>
-
-            <a href="mouses.html">
-            <div class="card" style="width: 14.5rem; height: 19rem;" data-aos="fade-up" style="border: 1px solid rgb(14, 64, 122);">
-              <img id="tarjetas" class="card-img-top" src="img/mauses.jpg" data-aos="fade-up" onmouseover="this.style.opacity=0.5" onmouseout="this.style.opacity=1">
-                <h2>Mouse</h2>
-            </div>
-          </a>
-
-          <a href="teclados.html">
-            <div class="card" style="width: 14.5rem; height: 19rem;" data-aos="fade-up" style="border: 1px solid rgb(14, 64, 122);">
-              <img id="tarjetas" class="card-img-top" src="img/teclado.png" data-aos="fade-up" onmouseover="this.style.opacity=0.5" onmouseout="this.style.opacity=1">
-                <h2>Teclado</h2>
-            </div>
-          </a>
-
-            <a href="auriculares.html">
-            <div class="card" style="width: 14.5rem; height: 19rem;" data-aos="fade-up" style="border: 1px solid rgb(14, 64, 122);">
-              <img id="tarjetas" class="card-img-top" src="img/auricular.png" data-aos="fade-up" onmouseover="this.style.opacity=0.5" onmouseout="this.style.opacity=1">
-                <h2>Auricular</h2>
-            </div>
-          </a>
+    <p id="descripcion">Caniche Electronics es una tienda mayorista de periféricos informáticos de última generación.
+      Ofrecemos productos de alta calidad, mouses, teclados, auriculares y más. Ven y disfruta de productos de
+      primera calidad y un servicio al cliente excepcional.    </p>
 
 
-            <br><br>
-</section>
+
+
+    <div class="container-cards">
+
+        <div class="card">
+          <a href="combos.html"><img class="inicio" src="img/combo.png"></a>
+        </div>
+
+        <div class="card">
+          <a href="auriculares.html"><img class="inicio" src="img/auricular.png"></a>
+        </div>
+
+        <div class="card">
+          <a href="mouses.html"><img class="inicio" src="img/mauses.jpg"></a> 
+        </div>
+
+        <div class="card">
+          <a href="teclados.html"><img class="inicio" src="img/teclado.png"></a>
+        </div>
+
+    </div>
+
+  </div>
+<script>AOS.init();</script>
+<script src="script.js"></script>
 </body>
+
 </html>

@@ -1,78 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="shortcut icon" type="image/x-icon" href="img/cniche.png">
-        <title>Sobre Nosotros</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/cniche.png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Sobre nosotros</title>
 </head>
+
 <body>
+  <nav class="navbar">
+    <a href="index.html" class="logo"><img src="img/cniche.png" style="width: 60px; height: 60px;">Caniche
+      Electronics</a>
+    <input type="checkbox" id="toggler">
+    <label for="toggler" onclick="toggleMenu()"><i class="fas fa-bars"></i></label>
+    <div class="menu">
+      <ul class="list">
+        <li><a href="index.html" onclick="closeMenu()">Inicio</a></li>
+        <li><a href="sobrenosotros.html" onclick="closeMenu()">Sobre nosotros</a></li>
+        <li><a href="auriculares.html" onclick="closeMenu()">Auriculares</a></li>
+        <li><a href="mouses.html" onclick="closeMenu()">Mouses</a></li>
+        <li><a href="teclados.html" onclick="closeMenu()">Teclados</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/cniche.png" width="60" height="60" class="d-inline-block align-top" alt="">
-              </a>
-              <a class="navbar-brand" href="index.html">Caniche Electronics</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre nosotros</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="auriculares.html">Auriculares</a>
-                  </li>
-        
-                  <li class="nav-item">
-                    <a class="nav-link" href="mouses.html">Mouses</a>
-                  </li>
-        
-                  <li class="nav-item">
-                    <a class="nav-link" href="teclados.html">Teclados</a>
-                  </li>
-        
-                </ul>
-              </div>
-            </div>
-        </nav>
-
-<section class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h1>Sobre nosotros</h1>
-                    <h3>CUIT</h3>
-                    <p>CUIT: 20-14561062-4</p>
-                    <h3>Direccion</h3>
-                    <p>Nuestra tienda está ubicada en la dirección 84 Av. San Martín Villa Carlos Paz, Córdoba. Estamos abiertos de lunes a viernes de 10am a 9pm ¡Esperamos verte pronto!</a></p>
-                    <h3>Contacto</h3>
-                    <p>Si tienen alguna duda o problema al comprar en nuestro sitio web, no se preocupe, nosotros estamos para ayudarle. Por favor, envíe un correo electrónico a <strong style="color:rgb(156, 136, 105)">canicheelectronics@gmail.com</strong>, o llama al <strong style="color:rgb(156, 136, 105)">011 4444-8989</strong> y nuestro equipo de soporte les responderá lo antes posible.</a></p>
-                
-
-            
-            <h3>Redes sociales</h3>
-            <p>¡No te pierdas nada! Síguenos en Twitter e Instagram para mantenerte informado de todas las novedades de nuestra web.</p>
-          </div>
-          </div>
-            <img src="img/twitter.png" width="350px" height="250px" style="border: 1px solid rgb(14, 64, 122);">
-            <img src="img/instagram.png" width="350px" height="250px" style="border: 1px solid rgb(14, 64, 122);">
-</section>
+  <section class="container-sobrenosotros">
+    <div class="row">
+      <div class="col-md-7">
+        <h1 id="sobrenosotros">Sobre nosotros</h1>
+        <p>En Caniche Electronics, nos apasiona ofrecer periféricos de alta calidad para mejorar la experiencia
+          tecnológica. Nuestro equipo de expertos evalúa constantemente las últimas innovaciones y trabajamos con
+          fabricantes confiables. Nos enfocamos en la satisfacción del cliente, brindando un excelente servicio y
+          construyendo relaciones a largo plazo. Estamos comprometidos con la innovación y ofrecemos productos que se
+          adaptan a tus necesidades.</p>
+        <p>Hace más de una década, en el corazón de una pequeña ciudad, un grupo de entusiastas de la tecnología decidió
+          unir fuerzas y hacer realidad su visión: crear una empresa que brindara periféricos de vanguardia para mejorar
+          la experiencia informática de las personas. Con una pasión compartida por la innovación y un profundo
+          conocimiento de los avances tecnológicos, fundaron Caniche Electronics.</p>
+        <p>El equipo de Caniche Electronics está compuesto por un grupo diverso y apasionado de profesionales, cada uno
+          aportando su experiencia y habilidades únicas para impulsar el éxito de la empresa. Aquí tienes una
+          descripción general de los roles clave en el equipo:</p>
+        <ul id="equipo">
+          <li>Gerente (Pepino Mauricio)</li>
+          <li> Administrador de sistemas (Roggiapane Renzo)</li>
+          <li> Asistente de servicio (Sánchez Tomas) </li>
+          <li> Vendedor (Liska Matias) </li>
+          <li> Repartidor (Romero Gonzalo)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
