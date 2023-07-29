@@ -4,4 +4,5 @@ Caniche Electronics is a fictional electronics store that I developed as part of
 
 Visit: https://mrgiann.github.io/Caniche-electronics/
 
-![image](https://github.com/mrgiann/Caniche-electronics/assets/82038942/35310a00-a88b-4c9c-a530-a2f2b9a91498)
+![image](https://github.com/mrgiann/Caniche-electronics/assets/82038942/13db60c6-d5b7-4928-b740-6e62a41c6a4b)
+
