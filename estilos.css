@@ -335,7 +335,6 @@ ul#equipo li {
 
     .menu {
         opacity: 0;
-        pointer-events: none;
     }
 
     .list {
